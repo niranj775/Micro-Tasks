@@ -1,5 +1,5 @@
 var div = document.createElement("div");
-div.setAttribute("class", "hover-effect");
+div.setAttribute("id", "hover-effect");
 div.innerHTML = "This is a P tag";
 
 div.addEventListener("mouseover", mouseOn);

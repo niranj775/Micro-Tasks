@@ -1,7 +1,8 @@
 var head1 = document.createElement("h1");
 
 head1.innerHTML = "This is a heading Tag";
-head1.addEventListener("click", displayXY(e));
+
+head1.addEventListener("click", displayXY);
 
 var para = document.createElement("p");
 

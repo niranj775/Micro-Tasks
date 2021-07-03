@@ -5,8 +5,8 @@ ta.addEventListener("keyup", charcountupdate);
 var span = document.createElement("span");
 span.setAttribute("id", "charcount");
 
-ta.append(span);
 document.body.append(ta);
+document.body.append(span);
 
 function charcountupdate() {
   document.getElementById(
